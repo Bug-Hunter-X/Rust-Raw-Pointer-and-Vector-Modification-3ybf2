@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Rust involving raw pointers and vector manipulation.  The `bug.rs` file shows code that attempts to modify a vector's element using a raw pointer. This is dangerous because it bypasses Rust's memory safety mechanisms.  The `bugSolution.rs` provides a safer, idiomatic solution.
